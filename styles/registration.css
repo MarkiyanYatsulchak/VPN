@@ -1,0 +1,43 @@
+.login-screen {
+    background-color: #eeeeee7a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.user-account-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.google-account::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image: url('/images/icons8-google.svg');
+    background-size: cover; /* Масштабування зображення під розмір контейнера */
+    display: inline-block;
+    margin-right: 5px; /* Відступ між іконкою і текстом */
+margin-left: 5px;
+}
+
+.apple-account::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image: url('/images/icons8-apple-logo.svg');
+    background-size: cover;
+    display: inline-block;
+    margin-right: 5px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPN</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/splash.css">
+    <link rel="stylesheet" href="./styles/main-screen.css">
+    <link rel="stylesheet" href="./styles/registration.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/home-screen.css">
+    <link rel="stylesheet" href="./styles/connected.css">
+    <link rel="stylesheet" href="./styles/tools.css">
+    <link rel="stylesheet" href="./styles/settings.css">
+    <link rel="stylesheet" href="./styles/button.css">
+</head>
+
+<body>
+    <p>Loading screen</p>
+
+
+    <div class="splash-screen">
+        <img src="./images/logo.png" alt="main-logo">
+        <h1>VPN application</h1>
+    </div>
+
+    <p>Main screen</p>
+
+
+    <div class="main-screen">
+        <img src="./images/phone-logo.png" alt="phone-logo">
+        <p>Some text about application</p>
+        <span>. . . .</span> <!-- slider for p tag about span tag -->
+        <a class="button" type="button">Log in</a>
+        <a class="button" type="button">Create account</a>
+    </div>
+
+    <p>Registration screen</p>
+
+
+    <div class="login-screen">
+        <img src="./images/logo.png" alt="phone-logo">
+        <div class="login-wrap">
+            <a class="button registration-screen-button" type="button">Log in</a>
+            <a href="#email-registration" class="button">Create account</a>
+            <div class="user-account-wrap">
+                <a class="button"><span class="google-account">Continue with Google</span></a>
+                <a class="button"><span class="apple-account">Continue with Apple</span></a>
+            </div>
+        </div>
+    </div>
+
+    <p>Registration form</p>
+
+    <div class="registration-screen" id="email-registration">
+        <img src="./images/logo.png" alt="phone-logo">
+        <form class="registration-form">
+            <label for="email">What is your email?</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            <label for="password">Create password</label>
+            <input type="password" id="password" name="password" minlength="8" placeholder="Enter password" required>
+            <button type="submit" class="button registration-button">Submit</button>
+        </form>
+
+    </div>
+
+    <p>Home screen</p>
+
+    <div class="home-screen" id="home">
+        <img src="./images/button-logo.png" alt="on/off-button">
+
+        <div>
+            <p class="country-select-caption">Checked country:</p>
+            <select class="home-screen-location-select">
+                <option value="country">--Choose country--</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+                <option value="china">China</option>
+            </select>
+        </div>
+
+        <div class="home-screen-data">
+            <p>Your displayed location: Germany</p>
+            <p>Your displayed IP address: 38.185.86.128</p>
+            <p>Your real location : Ukraine</p>
+            <p>Your IP address: 192.168.1.1</p>
+        </div>
+
+    </div>
+    <div class="main-menu">
+        <a href="#home"><span class="main-menu-home"></span></a>
+        <a href="#"><span class="main-menu-tools"></span></a>
+        <a href="#"><span class="main-menu-settings"></span></a>
+    </div>
+
+    <p>Connected screen</p>
+
+    <div class="connected-screen" id="connected">
+        <img src="./images/logo.png" alt="logo">
+        <p>Connection:</p>
+        <p><span>In: 530 MB</span> / <span>Out: 120 MB</span></p>
+        <p>Speed: 2 Mb/sec.</p>
+        <button class="button">Disconect</button>
+
+        <div class="home-screen-data">
+            <p>Your displayed location: Germany</p>
+            <p>Your displayed IP address: 38.185.86.128</p>
+            <p>Your real location : Ukraine</p>
+            <p>Your IP address: 192.168.1.1</p>
+        </div>
+
+    </div>
+    <div class="main-menu">
+        <a href="#home"><span class="main-menu-home"></span></a>
+        <a href="#tools"><span class="main-menu-tools"></span></a>
+        <a href="#settings"><span class="main-menu-settings"></span></a>
+    </div>
+
+    <p>Tools</p>
+
+    <div class="tools-screen" id="tools">
+        <p><a href="#home">Tools</a></p>
+        <ul>
+            <li><a href="">SpeedTest</a></li>
+            <li><a href="">Geo IP</a></li>
+            <li><a href="">Ping</a></li>
+            <li><a href="">Local Devices</a></li>
+        </ul>
+    </div>
+
+    <p>Settings</p>
+
+    <div class="settings-screen" id="settings">
+        
+        <p><a href="#home">Settings screen</a></p>
+        <ul>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Notifications</a></li>
+            <li><a href="">Subscription</a></li>
+            
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: #eeeeee7a;
+}
+
+.home-screen img {
+  margin-top: 40px;
+}
+
+.country-select-caption {
+    margin: auto 0 10px auto;
+}
+
+/* .home-screen-location-select {
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  appearance: none;
+  background-color: #c8c8c8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60vw;
+}
+
+
+
+.home-screen-location-select:focus {
+  outline: none; 
+  border-color: #007bff;
+}
+
+.home-screen-location-select::after {
+    content: "\25BC"; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  } */
+
+  .home-screen-location-select {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    width: 200px; /* Задайте бажану ширину селекта */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #c8c8c8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.home-screen-location-select:focus {
+    outline: none; 
+    border-color: #737373;
+  }
+  
+  .home-screen-location-select select {
+    appearance: none;
+    background-color: transparent;
+    
+    padding: 10px;
+    width: 100%;
+   
+    cursor: pointer;
+  }
+  
+  
+  /* .home-screen-location-select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  } */
+
+
+.home-screen-data {
+    background-color: #c8c8c8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60vw;
+ 
+}
+
+.home-screen-data p {
+  padding: 10px;
+}
+
+.home-screen-data p:not(:last-child) {
+    border-bottom: 1px solid #000;
+    
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #c8c8c8;
+}
+
+.main-menu-home {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('/images/icons8-home-24.png');
+    background-size: cover; /* Масштабування зображення під розмір контейнера */
+    display: inline-block;
+    
+}
+
+.main-menu-tools {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('/images/icons8-tools-48.png');
+    background-size: cover; /* Масштабування зображення під розмір контейнера */
+    display: inline-block;
+    
+}
+
+.main-menu-settings {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('/images/icons8-settings-50.png');
+    background-size: cover; /* Масштабування зображення під розмір контейнера */
+    display: inline-block;
+    
+}

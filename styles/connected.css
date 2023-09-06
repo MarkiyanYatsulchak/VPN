@@ -1,0 +1,21 @@
+.connected-screen {
+    background-color: #eeeeee7a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.connected-screen p {
+ padding: 10px;
+}
+
+/* .connected-screen p:first-of-type {
+    margin-top: 50px;
+} */
+
+.connected-screen button {
+    margin-bottom: 50px;
+    background-color: #ff8d8d;
+}

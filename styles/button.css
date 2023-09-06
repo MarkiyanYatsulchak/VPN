@@ -1,0 +1,26 @@
+.button {
+  min-width: 175px;
+  padding: 10px 0;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px auto 0 auto;
+  color: #000;
+  background: #c2d2e1;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #abb1b6;
+}
+
+.button:active {
+  color: #fff;
+  background-color: #5595d0;
+}
+
+
+
+
