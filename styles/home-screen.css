@@ -117,7 +117,7 @@
     content: '';
     width: 20px;
     height: 20px;
-    background-image: url('images/icons8-home-24.png');
+    background-image: url("/images/icons8-home-24.png");
     background-size: cover; /* Масштабування зображення під розмір контейнера */
     display: inline-block;
     
@@ -127,7 +127,7 @@
     content: '';
     width: 20px;
     height: 20px;
-    background-image: url('images/icons8-tools-48.png');
+    background-image: url("/images/icons8-tools-48.png");
     background-size: cover; /* Масштабування зображення під розмір контейнера */
     display: inline-block;
     
@@ -137,7 +137,7 @@
     content: '';
     width: 20px;
     height: 20px;
-    background-image: url('images/icons8-settings-50.png');
+    background-image: url("/images/icons8-settings-50.png");
     background-size: cover; /* Масштабування зображення під розмір контейнера */
     display: inline-block;
     
